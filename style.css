@@ -1,0 +1,87 @@
+*, 
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f9ecc7;
+    
+}
+.container-navbar {
+    background-color: #808cf8;
+    width: 100%;
+    height: 80px;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;          
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 10px;
+    margin: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.li-navbar:hover {
+    background-color: rgb(177, 177, 247);
+    transition: .1s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 10px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.container-content {
+    background-color: #f9ecc7;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 55px 60px;
+}
+
+.container-content p {
+    margin: 10px;
+}
+
+.img-content {
+    height: 13rem;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+#ol{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.profile{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1%;
+    background-color: #f7c17f;
+}
+.profile img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.profile .bio{
+    display: flex;
+}
+.profile .bio p:first-child{
+    min-width: 50px;
+}
